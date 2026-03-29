@@ -44,8 +44,12 @@ The environment mirrors enterprise-style systems including Active Directory, int
 | VM Name  | OS             | Role                      |
 | -------- | -------------- | ------------------------- |
 | DC01     | Windows Server | Domain Controller         |
-| CLIENT01 | Windows 10     | Domain-joined workstation |
+| Client01 | Windows 10     | Domain-joined workstation |
 | LINUX01  | Ubuntu         | Linux server              |
+| Kali     | Kali           | Attack machine            |
+| SecOnion | CentOS         | Intrusion Detection       |
+| pfsense  | FreeBSD        | Firewall                  |
+| Splunk   | Ubuntu         | SIEM                      |
 
 ---
 
@@ -109,9 +113,9 @@ Displays organizational units and user account management within the Active Dire
 ![Domain Join](./screenshots/domain-join.png)
 Displays a client system successfully joined to the Active Directory domain, confirming proper DNS configuration, domain integration, and centralized authentication.
 
-### Linux System Access
-
-![Linux](./screenshots/linux-terminal.png)
+### Security Onion System Access (Linux)
+![Security Onion](./screenshots/linux-access.png)
+Demonstrates command-line access to the Security Onion management system, including hostname identification, user context, and network configuration within the lab environment. This system is used for security monitoring, intrusion detection, and log analysis.
 
 ### Linux System Monitoring (Kali)
 ![Linux Monitoring](./screenshots/linux-monitoring.png)
