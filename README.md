@@ -101,15 +101,21 @@ The environment mirrors enterprise-style systems including Active Directory, int
 
 ### Active Directory Users & Computers
 
-![AD](./screenshots/ad-users.png)
+### Active Directory Management
+![Active Directory](./screenshots/ad-users.png)
+Displays organizational units and user account management within the Active Directory domain, demonstrating identity and access control configuration.
 
-### Domain Join Confirmation
-
-![Domain](./screenshots/domain-join.png)
+### Domain Join Verification
+![Domain Join](./screenshots/domain-join.png)
+Displays a client system successfully joined to the Active Directory domain, confirming proper DNS configuration, domain integration, and centralized authentication.
 
 ### Linux System Access
 
 ![Linux](./screenshots/linux-terminal.png)
+
+### Linux System Monitoring (Kali)
+![Linux Monitoring](./screenshots/linux-monitoring.png)
+Real-time system monitoring using htop, displaying CPU utilization, memory usage, and active processes within the Kali Linux environment.
 
 ---
 
