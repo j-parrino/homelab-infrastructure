@@ -122,6 +122,8 @@ Demonstrates command-line access to the Security Onion management system, includ
 
 Real-time system monitoring using htop, displaying CPU utilization, memory usage, and active processes within the Kali Linux environment.
 
+### Security Onion Nmap Scan Alert
+![nmapalert](./screenshots/nmapalert.png)
 ---
 
 ## Key Takeaways
